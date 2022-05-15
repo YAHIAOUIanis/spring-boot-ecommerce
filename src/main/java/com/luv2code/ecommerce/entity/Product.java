@@ -27,7 +27,7 @@ public class Product {
 	@Column(name = "id")
 	private Long id;
 
-	@Column(name = "id")
+	@Column(name = "sku")
 	private String sku;
 
 	@ManyToOne
